@@ -1,7 +1,7 @@
 from safe_teach_skiper import SafeTeachSkiper
 
 print('''如学校为深圳职业技术学院，学校代码留空即可，否则请自行抓包。
-详情请查看README。
+详情请查看README，项目地址：https://github.com/HsOjo/SafeTeachSkiper
 ''')
 
 tenant_code = input('学校代码:')
