@@ -7,7 +7,7 @@ print('''如学校为深圳职业技术学院，学校代码留空即可，否�
 tenant_code = input('学校代码:')
 if tenant_code == '':
     tenant_code = '51800001'
-key_number = input('录取编号:')
+key_number = input('学号:')
 password = input('密码:')
 
 client = SafeTeachSkiper()
