@@ -22,4 +22,6 @@ for course in course_list:
                 result = client.finish(item['userCourseId'])
                 print(item['resourceName'], '已完成' if result else '未完成')
             except:
-                pass
+                print(item['resourceName'], '出错')
+        else:
+            print(item['resourceName'], '已完成，跳过。')
